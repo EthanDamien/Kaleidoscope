@@ -624,8 +624,8 @@ void setup() {
 
   // Set the rainbow effects to be reasonably bright, but low enough
   // to mitigate audible noise in some environments.
-  LEDRainbowEffect.brightness(170);
-  LEDRainbowWaveEffect.brightness(160);
+  LEDRainbowEffect.brightness(255);
+  LEDRainbowWaveEffect.brightness(255);
 
   // Set the action key the test mode should listen for to Left Fn
   HardwareTestMode.setActionKey(R3C6);
